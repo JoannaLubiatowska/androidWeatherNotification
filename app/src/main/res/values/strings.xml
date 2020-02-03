@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">weatherNotification</string>
+    <string name="app_name">Weather notifications</string>
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="msg_registered_token">Registered token: %s</string>
+    <string name="hello_world">Hello Weather!</string>
+    <string name="channel_name_current_weather">Current weather</string>
+    <string name="chanel_description_current_weather">Notification with information about current weather</string>
 </resources>

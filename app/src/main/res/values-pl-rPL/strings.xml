@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Powiadomienia o pogodzie</string>
+    <string name="msg_registered_token">Zarejestrowano token: %s</string>
+    <string name="msg_subscribe_failed">Błąd podczas subskrypcji kanału powiadomień o pogodzie</string>
+    <string name="msg_subscribed">Zasubskrybowano kanał powiadomień o pogodzie</string>
+    <string name="hello_world">Witaj!</string>
+    <string name="chanel_description_current_weather">Powiadomienia z informacją o aktualnej pogodzie</string>
+    <string name="channel_name_current_weather">Obecna pogoda</string>
+</resources>

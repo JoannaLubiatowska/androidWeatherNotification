@@ -45,8 +45,8 @@ public class FirebaseNotificationService extends FirebaseMessagingService {
         String notificationChannelID = "com.example.weathernotification.notification";
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel notificationChannel = new NotificationChannel(notificationChannelID, "Current weather", NotificationManager.IMPORTANCE_DEFAULT);
-            notificationChannel.setDescription("Notification with information about current weather.");
+            NotificationChannel notificationChannel = new NotificationChannel(notificationChannelID, getString(R.string.channel_name_current_weather), NotificationManager.IMPORTANCE_DEFAULT);
+            notificationChannel.setDescription(getString(R.string.chanel_description_current_weather));
             notificationChannel.enableLights(true);
             notificationChannel.setLightColor(Color.BLUE);
             notificationManager.createNotificationChannel(notificationChannel);
